@@ -70,11 +70,23 @@ The raw and processed dataset used in this study is publicly available on Zenodo
 - **Temporal coverage:** 1981–2025 (daily resolution)
 - **License:** CC-BY 4.0
 
-**Dataset citation:**
+**Dataset citation (plain text):**
 ```
-Nasim, M. M. K. (2026). Dataset for: Beyond Accuracy — Diagnosing Systematic Biases 
+Nasim, MD Mahfuz Karim. (2026). Dataset for: Beyond Accuracy — Diagnosing Systematic Biases 
 in Classical ML Weather Models Using SHAP Explainability [Data set]. Zenodo. 
 https://doi.org/10.5281/zenodo.21313125
+```
+
+**Dataset citation (BibTeX):**
+```bibtex
+@dataset{nasim2026dataset,
+  author    = {Nasim, MD Mahfuz Karim},
+  title     = {Dataset for: Beyond Accuracy --- Diagnosing Systematic Biases in Classical ML Weather Models Using SHAP Explainability},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.21313125},
+  url       = {https://doi.org/10.5281/zenodo.21313125}
+}
 ```
 
 ## Main workflow
@@ -141,6 +153,24 @@ python -m pytest -q
 This repository is not just a generic analysis starter; it is a structured research codebase designed to support a publishable IEEE paper. It moves from raw weather data to reproducible preprocessing, baseline modeling, and SHAP-based interpretability, producing the kinds of artifacts needed for a formal scientific submission: transparent experiments, modular code, documented workflows, and manuscript-ready figures. The project is organized so that each stage of the pipeline can be audited, extended, and ultimately included in a polished IEEE conference paper.
 
 ## Citing this work
-If you use this repository or the associated SHAP explainability pipeline in your research, please cite:
 
-[Add Citation Placeholder Here, e.g., BibTeX]
+A formal citation with full venue and page details will be added once the COMPAS 2026 proceedings are published. In the meantime, please use the following provisional citations:
+
+**Plain text:**
+```
+Nasim, MD Mahfuz Karim. (2026). Beyond Accuracy: Diagnosing Systematic Biases in Classical 
+ML Weather Models Using SHAP Explainability. IEEE COMPAS 2026 (in press).
+```
+
+**BibTeX:**
+```bibtex
+@inproceedings{nasim2026beyondaccuracy,
+  author    = {Nasim, MD Mahfuz Karim},
+  title     = {Beyond Accuracy: Diagnosing Systematic Biases in Classical ML Weather Models Using SHAP Explainability},
+  booktitle = {Proceedings of the IEEE COMPAS 2026},
+  year      = {2026},
+  note      = {In press}
+}
+```
+
+If you use the dataset itself, please cite it separately using the Zenodo DOI listed in the Data Availability section above.
