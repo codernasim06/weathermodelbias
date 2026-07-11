@@ -58,6 +58,10 @@ The repository currently contains the following top-level items:
 - [.gitignore](.gitignore)
   Git ignore rules for large or local-only files.
 
+## Data Availability
+The dataset used in this study is publicly available on Zenodo:
+[DOI: 10.5281/zenodo.21313125](https://zenodo.org/records/21313125)
+
 ## Main workflow
 
 The expected workflow is:
