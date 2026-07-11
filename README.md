@@ -59,8 +59,23 @@ The repository currently contains the following top-level items:
   Git ignore rules for large or local-only files.
 
 ## Data Availability
-The dataset used in this study is publicly available on Zenodo:
-[DOI: 10.5281/zenodo.21313125](https://zenodo.org/records/21313125)
+
+The raw and processed dataset used in this study is publicly available on Zenodo:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21313125.svg)](https://doi.org/10.5281/zenodo.21313125)
+
+- **Source:** NASA POWER (Prediction Of Worldwide Energy Resources)
+- **Location:** Dhaka, Bangladesh (23.8103°N, 90.4125°E)
+- **Parameters:** PRECTOTCORR (corrected precipitation), T2M (temperature at 2 meters)
+- **Temporal coverage:** 1981–2025 (daily resolution)
+- **License:** CC-BY 4.0
+
+**Dataset citation:**
+```
+Nasim, M. M. K. (2026). Dataset for: Beyond Accuracy — Diagnosing Systematic Biases 
+in Classical ML Weather Models Using SHAP Explainability [Data set]. Zenodo. 
+https://doi.org/10.5281/zenodo.21313125
+```
 
 ## Main workflow
 
