@@ -1,0 +1,7 @@
+# Copy-Paste the followings in the terminal to run the system
+
+pip install -r requirements.txt         #Remember to be present in the root directory
+cd src
+python data_preprocessing.py
+python model_training.py
+python shap_diagnostics.py
