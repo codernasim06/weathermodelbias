@@ -1,7 +1,7 @@
 # Beyond Accuracy: Diagnosing Systematic Biases in Classical ML Weather Models Using SHAP Explainability
 
 # Dataset now indexed at OpenAIRE 
-[![Indexed in OpenAIRE](https://shields.io)](https://zenodo.org/records/21313125)
+[![Indexed in OpenAIRE](https://img.shields.io/badge/Indexed%20in-OpenAIRE-00549F?logo=openaire&logoColor=white)](https://zenodo.org/records/21313125)
 
 
 This repository contains the reproducible research workflow for the IEEE COMPAS 2026 submission titled "Beyond Accuracy: Diagnosing Systematic Biases in Classical ML Weather Models Using SHAP Explainability". It supports the full experimental pipeline for preprocessing weather data, prototyping classical machine learning models, and producing SHAP-based explainability analyses for the manuscript.
